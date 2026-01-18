@@ -23,7 +23,7 @@ A high-performance HTTP caching proxy server that caches responses from any orig
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Mahesh77r/caching-proxy.git
 cd caching-proxy
 
 # Install dependencies
@@ -103,9 +103,6 @@ npm run dev
 # Run the CLI in development
 npm run cli -- --port 8000 --origin 'https://dummyjson.com' --ttl 120
 
-# Run with the bash script
-sh run.sh --port 8000 --origin 'https://dummyjson.com' --ttl 120
-```
 
 ## How It Works
 
@@ -279,7 +276,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Your Name
+Mahesh Rohane
 
 ---
 
