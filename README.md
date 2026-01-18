@@ -2,6 +2,8 @@
 
 A high-performance HTTP caching proxy server that caches responses from any origin server with configurable TTL (Time To Live). Built with TypeScript, Express, and Docker support.
 
+> **Note**: This project is based on the [Caching Server](https://roadmap.sh/projects/caching-server) challenge from [roadmap.sh](https://roadmap.sh).
+
 ## Features
 
 - 🚀 **Fast Caching**: In-memory caching with SHA256-based cache keys
