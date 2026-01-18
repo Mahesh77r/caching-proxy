@@ -1,0 +1,7 @@
+# Dev image ONLY for git + ssh
+FROM node:20-alpine
+
+# Install git & ssh
+RUN apk add --no-cache git openssh bash
+
+WORKDIR /app

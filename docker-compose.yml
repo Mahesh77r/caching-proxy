@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  caching-proxy:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - ORIGIN=https://dummyjson.com
+      - TTL=120
+    command: [ "--port", "8000", "--origin", "https://dummyjson.com", "--ttl", "120" ]
+    restart: unless-stopped
